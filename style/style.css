@@ -1,0 +1,78 @@
+body {
+    background-color: #F6D050;
+  }
+
+.blog-post-card {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 6px 8px black;
+}
+
+
+.blog-post-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.blog-post-card h3 {
+    background-color: #F6D050;
+    width: 25%;
+    padding: 5px;
+    border-radius: 5%;
+    margin: 4% 0;
+}
+
+.blog-post-card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-post-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: dimgray;
+}
+
+.author-image {
+    display: flex;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+  
+  .author-image img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+  }
+
+.blog-post-card h4 {
+    margin-left: 15px;
+}
+
+/* CSS for read more and comments links */
+.blog-post-card a {
+  color: #0077cc;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.blog-post-card a:hover {
+  text-decoration: underline;
+}
+
+/* CSS for attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: #0077cc;
+}
